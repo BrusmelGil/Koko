@@ -3,3 +3,26 @@
     padding: 0;
 
 }
+
+#categ-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+  
+}
+
+.categ-item {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.categ-item img {
+    height: 200px;
+    width: 200px;
+}
