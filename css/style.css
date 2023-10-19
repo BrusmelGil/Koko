@@ -7,8 +7,47 @@
 :root{
     --header: #2A4883;
     --home: #B8F5EE;
-    --footer-info: #ECCFA3;
+    --footer-info: rgba(255, 192, 203, 0.342);
     --footer-redes: #2A4883;
     --pag-detalle: #FFFFFF;
     --categories: #B8F5EE; 
+    
 }
+
+#footer-info{
+    display: flex;
+    background: var(--footer-info);
+    justify-content: space-between;
+    max-width: 100%;
+    margin-top: 100px;
+    
+}
+
+.box-footer-info{
+    margin-top: 30px;
+    width: 50%;
+    text-align: center;
+}
+
+
+.box-footer-info .text-title h4{
+    margin-bottom: 20px;
+    font-size: large;
+
+}
+
+.box-footer-info .paragraph-footer{
+    margin: 30px;
+
+    text-align: center;
+}
+
+.paragraph-footer{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
