@@ -4,18 +4,25 @@
 
 }
 
-#categ-container {
+
+
+#home {
+    min-height: 100vh;
+    background-color: #B8F5EE;
+}
+.categ-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
     padding: 20px;
     margin: 0 auto;
     max-width: 800px;
-  
+    background: fixed;
+    background-color:#B8F5EE ;
 }
 
 .categ-item {
-    border: 1px solid #ccc;
+    
     text-align: center;
     padding: 10px;
     height: 200px;
