@@ -1,45 +1,67 @@
 header {
-    background-color: #1a9de9; 
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
+  background-color: #1a9de9;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.logo{ width:50px;}
-.logokoko{width: 250px;}
+
+.logokoko {position:relative;
+  width: 270px;
+}
+
+
+.barranav {
+  display: flex;
+  background-color: bisque;
+  height: 4vh;
+  align-items: center;
+  
+}
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
 }
 
 nav li {
-    display: inline;
-
+  display: inline;
 }
-nav a{
-    display:inline-flex;
-    justify-content: center;
-    color: #000;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bolder;
+nav a {
+  display: inline-flex;
+  justify-content: center;
+  color: #000;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
 }
 .subscribe button {
-    background-color:violet;
-    border: none;
-    border-radius: 30%;
-    padding: 5px 10px;
+  background-color: violet;
+  border: none;
+  border-radius: 30%;
+  padding: 5px 10px;
 }
-.carrito{width: 20%;
-border-radius: 40%;
-margin-top: 50%;
-padding-top: 5%;}
-.carro{display: flex;
-justify-content: end;
-margin-left: 50%;
+.carrito {
+  width: 20%;
+  border-radius: 40%;
+  margin-top: 50%;
+  padding-top: 5%;
 }
-.navbar{display: inline;
+.carro {
+  display: flex;
+  justify-content: end;
+  margin-left: 50%;
 }
-.sobre{width:25px;}
+.navbar {
+  display: inline;
+  
+  
+}
+.sobre {
+  width: 25px;
+}
+button :hover{cursor: pointer;}
+.carro :hover{cursor: pointer;}
+
+
