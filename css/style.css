@@ -8,7 +8,7 @@
 :root {
     --header: #2A4883;
     --home: #B8F5EE;
-    --footer-info: rgba(255, 192, 203, 0.342);
+    --footer-info: rgba(255, 192, 203, 0.621);
     --footer-redes: #2A4883;
     --pag-detalle: #FFFFFF;
     --categories: #B8F5EE;
@@ -39,7 +39,7 @@ header {
 
 }
 
- nav ul {
+nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -49,6 +49,7 @@ header {
 nav li {
     display: inline;
 }
+
 nav a {
     display: inline-flex;
     justify-content: center;
@@ -167,4 +168,62 @@ button :hover {
 
 .text-paragraph {
     text-align: left;
+}
+
+#redes {
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.footer_redes {
+
+    background-color: #bac6df;
+
+}
+
+#payment-method {
+    position: relative;
+    width: 28%;
+    margin: auto;
+    padding: 1%;
+
+}
+
+.payment {
+    position: relative;
+    width: 20%;
+    display: inline-block;
+    padding: 3%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.payment:hover {
+    opacity: 0.5;
+}
+
+.redes_p {
+    font-weight: bold;
+    color: #2A4883;
+    padding: 1%;
+
+}
+
+#redes_sociales {
+    position: relative;
+    width: 23%;
+    float: right;
+    margin-top: -7%;
+    padding: 1%;
+}
+
+.iconos_redes {
+    width: 12%;
+    padding: 1%;
+    cursor: pointer;
+}
+
+.iconos_redes:hover {
+    opacity: 0.5;
 }
