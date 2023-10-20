@@ -63,5 +63,35 @@ nav a {
 }
 button :hover{cursor: pointer;}
 .carro :hover{cursor: pointer;}
+#home {
+  min-height: 100vh;
+  background-color: #B8F5EE;
+}
 
+.categ-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+  background: fixed;
+  background-color:#B8F5EE ;
+}
+
+.categ-item {
+  text-align: center;
+  padding: 10px;
+  height: 200px;
+  width: 200px;
+}
+
+.categ-item img {
+  height: 200px;
+  width: 200px;
+}
+
+.categ-item h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
