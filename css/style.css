@@ -15,43 +15,62 @@
 }
 
 #footer-info{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 3.5rem;
     background: var(--footer-info);
-    justify-content: space-between;
-    max-width: 100%;
-    margin-top: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
     
 }
 
-.box-footer-info{
-    margin-top: 30px;
-    width: 50%;
-    /* text-align: left; */
-}
-
-
 .box-footer-info .text-title h4{
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
     font-size: large;
-    margin-left: 10rem;
+    margin-left: 4rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
 }
 
-.box-footer-info .paragraph-footer{
-    margin: 30px;
-
-    text-align: center;
-}
-
-.paragraph-footer{
-display: flex;
-justify-content: center;
-align-items: center;
+.box-footer-info li{
+    margin-bottom: 16px;
+    margin-left: 5rem;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) ease;
 
 }
 
-.text-paragraph{
-    text-align: left;
-} 
+.box-footer-info li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transform: translateY(-2px) translateX(-5px);
 
+}
+
+.box-footer-info .text-paragraph p{
+
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+    
+}
+
+
+.box-footer-info-somos{
+    margin-bottom: 1.5rem;
+    font-size: large;
+    margin-left: 5rem;
+}
+
+.box-footer-info-somos h4{
+
+    margin-bottom: 1.5rem;
+    font-size: large;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    font-weight: 800;
+    
+}
 
 
