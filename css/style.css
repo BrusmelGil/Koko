@@ -1,14 +1,12 @@
 header {
   background-color: #1a9de9;
-  color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+.box{width: 150px;
+height: 150px;}
 
-.logokoko {position:relative;
-  width: 270px;
-}
 
 
 .barranav {
@@ -19,12 +17,7 @@ header {
   
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  
-}
+
 
 nav li {
   display: inline;
