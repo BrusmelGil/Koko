@@ -42,7 +42,7 @@
     height: 350px;
     width: 350px;
     padding: 20px;
-    transition: opacity 0.2s;
+    transition: opacity 0.3s;
 }
 
 .gallery-image1:hover {
@@ -51,7 +51,17 @@
 }
 
 .gallery-image2:hover {
-    content: url("../");
+    content: url("../images-hover-Gallery/hover-Gallery-img2.jpg");
+    padding: 20px;
+}
+
+.gallery-image3:hover {
+    content: url("../images-hover-Gallery/hover-Gallery-img3.jpg");
+    padding: 20px;
+}
+
+.gallery-image4:hover {
+    content: url("../images-hover-Gallery/hover-Gallery-img4.jpg");
     padding: 20px;
 }
 .gallery-item-title {
