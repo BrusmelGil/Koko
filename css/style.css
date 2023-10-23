@@ -98,36 +98,68 @@ button :hover {
 
 
 #home {
-    min-height: 100vh;
-    background-color: #B8F5EE;
-}
+    min-height: 250vh;
+    background-image: url('https://ih1.redbubble.net/cover.4092629.2400x600.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
 
 .categ-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
-    padding: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:auto;
+    grid-gap: 150px;
     margin: 0 auto;
-    max-width: 800px;
-    background: fixed;
-    background-color: #B8F5EE;
+    padding: 10%;
+    max-width:fit-content;
+    max-height: 75%;
+    
 }
 
 .categ-item {
     text-align: center;
+   
+ 
+}
+
+.categ-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+    box-shadow: 6px 8px 10px 2px #0a142b;
+    height: 350px;
+    width: 350px;
+    position: relative;
     padding: 10px;
-    height: 200px;
-    width: 200px;
+    background: linear-gradient(to bottom right, #ECCFA3 16%,#e677c4 51%,#2A4883 84%); 
 }
 
-.categ-item img {
-    height: 200px;
-    width: 200px;
+.categ-image-container img {
+    border-radius: 25%;
+    height: 350px;
+    width: 350px;
+    transition: transform 0.2s;
 }
 
-.categ-item h2 {
+.categ-image-container:hover {
+    transform: rotate(6deg);
+    cursor: pointer;
+}
+
+.categ-image-container:hover img {
+    transition: transform 0.2s;
+}
+
+.categ-item p {
+    margin: 5px;
+    font-size: xx-large;
+    font-weight: bolder;
+    position: relative;
+    z-index: 1;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 
 
 
