@@ -4,13 +4,15 @@
 }
 
 #home-gallery {
-    min-height: 250vh;
+    min-height: 80vh;
     background-image: url('https://ih1.redbubble.net/cover.4092629.2400x600.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }  
 
 .gallery-container {
+    display: flex;
+    justify-content: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
@@ -28,11 +30,13 @@
 .gallery-image-container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    position: relative;
     align-items: center;
+    border-radius: 15px;
     box-shadow: 6px 8px 10px 2px #0a142b;
-    height: 350px;
+    height: 390px;
     width: 350px;
-    
     padding: 20px;
     background-color: white;
     overflow: hidden;
@@ -41,40 +45,40 @@
 .gallery-image-container img {
     height: 350px;
     width: 350px;
-    padding: 20px;
+    position: relative;
+    z-index: 2;
     transition: opacity 0.3s;
 }
 
 .gallery-image1:hover {
     content: url("../images-hover-Gallery/hover-Gallery-img1.jpg");
-    padding: 20px;
 }
 
 .gallery-image2:hover {
     content: url("../images-hover-Gallery/hover-Gallery-img2.jpg");
-    padding: 20px;
 }
 
 .gallery-image3:hover {
     content: url("../images-hover-Gallery/hover-Gallery-img3.jpg");
-    padding: 20px;
 }
 
 .gallery-image4:hover {
     content: url("../images-hover-Gallery/hover-Gallery-img4.jpg");
-    padding: 20px;
 }
+
 .gallery-item-title {
-    margin: 5px;
+    margin-top: 20px;
+    position: relative;
+    bottom: 12px;
     font-size: large;
     font-weight: normal;
-
-}
-
-.gallery-item p {
-    margin: 5px;
-    position: relative;
-    z-index: 1;
+    z-index: 2;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.gallery-item-price {
+    position: relative;
+    z-index: 2;
+}
+
 
