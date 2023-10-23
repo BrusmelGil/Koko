@@ -58,9 +58,14 @@ nav a {
   justify-content: end;
   margin-left:60%;
 }
-.carrito{
-  
+.carrito {
+  width: 20%;
+  border-radius: 40%;
+  margin-top: 50%;
+  padding-top: 5%;
 }
+  
+
 .navbar {
   display: inline;
 }
