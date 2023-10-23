@@ -98,7 +98,7 @@ button :hover {
 
 
 #home {
-    min-height: 250vh;
+    min-height: 75vh;
     background-image: url('https://ih1.redbubble.net/cover.4092629.2400x600.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,7 +108,7 @@ button :hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows:auto;
-    grid-gap: 150px;
+    grid-gap: 100px;
     margin: 0 auto;
     padding: 10%;
     max-width:fit-content;
