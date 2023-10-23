@@ -1,33 +1,36 @@
 header {
-  background-color: #1a9de9;
+  background: radial-gradient(circle, rgb(128, 65, 230), rgb(34, 138, 223));
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.box{width: 150px;
-height: 150px;}
+.box {
+  width: 250px;
+  height: 250px;
 
-
+}
+.logo {
+  max-width: 100%;
+  max-height: 100%;
+}
 
 .barranav {
   display: flex;
-  background-color: bisque;
-  height: 4vh;
+  justify-content: center;
   align-items: center;
-  
+  height: 30vh;
 }
+.navbar ul{list-style:none;
+padding: 180%;
+margin: 0;
+display: flex;}
 
-
-
-nav li {
-  display: inline;
+.navbar li {
+  margin-right: 20px;
 }
 nav a {
-  display: inline-flex;
-  justify-content: center;
-  color: #000;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: bolder;
+  text-decoration:underline;
+  color: aliceblue;
 }
 .subscribe button {
   background-color: violet;
@@ -44,17 +47,17 @@ nav a {
 .carro {
   display: flex;
   justify-content: end;
-  margin-left: 50%;
+  margin-left:60%;
 }
 .navbar {
   display: inline;
-  
-  
 }
 .sobre {
   width: 25px;
 }
-button :hover{cursor: pointer;}
-.carro :hover{cursor: pointer;}
-
-
+button :hover {
+  cursor: pointer;
+}
+.carro :hover {
+  cursor: pointer;
+}
