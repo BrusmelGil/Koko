@@ -30,10 +30,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     grid-gap: 20px;
-    
-    
     max-width:fit-content;
-    
 }
 
 .gallery-item {
