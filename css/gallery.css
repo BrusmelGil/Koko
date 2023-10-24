@@ -26,7 +26,7 @@
 }
 
 .gallery-container {
-    display: flex;
+    display: grid;
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -43,7 +43,6 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    position: relative;
     align-items: center;
     border-radius: 15px;
     box-shadow: 6px 8px 10px 2px #0a142b;
@@ -60,8 +59,6 @@
 .gallery-image-container img {
     height: 350px;
     width: 350px;
-    position: relative;
-    z-index: 2;
     transition: opacity 0.3s;
 }
 
@@ -69,18 +66,14 @@
     border-bottom: 3px solid #47589D;
     padding-top: 10px;
     padding-bottom: 5px;
-    position: relative;
     font-size: large;
     font-weight: normal;
-    z-index: 2;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .gallery-item-price {
-    position: relative;
-    z-index: 2;
-    margin-top: 1px;
-    margin-bottom: 1px;
+    
+    margin-top: 2px;
     font-size: x-large;
     font-weight: bold;
     color: #47589D;
@@ -88,7 +81,6 @@
 }
 
 .gallery-item-iva {
-    position: relative;
     z-index: 2;
     margin-top: 1px;
     margin-bottom: 30px;
@@ -141,6 +133,7 @@
 .gallery-image11:hover {
     content: url("../images-hover-Gallery/hover-Gallery-img11.jpg");
 }
+
 .gallery-image12:hover {
     content: url("../images-hover-Gallery/hover-Gallery-img12.jpg");
 }
