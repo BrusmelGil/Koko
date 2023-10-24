@@ -50,6 +50,27 @@
     transition: opacity 0.3s;
 }
 
+.gallery-item-title {
+    margin-top: 20px;
+    position: relative;
+    bottom: 10px;
+    font-size: large;
+    font-weight: normal;
+    z-index: 2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.gallery-item-price {
+    position: relative;
+    z-index: 2;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: medium;
+    font-weight: bold;
+    color: #f70404;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .gallery-image1:hover {
     content: url("../images-hover-Gallery/hover-Gallery-img1.jpg");
 }
@@ -66,19 +87,51 @@
     content: url("../images-hover-Gallery/hover-Gallery-img4.jpg");
 }
 
-.gallery-item-title {
-    margin-top: 20px;
-    position: relative;
-    bottom: 12px;
-    font-size: large;
-    font-weight: normal;
-    z-index: 2;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.gallery-image5:hover {
+    content: url("../images-hover-Gallery/hover-Gallery-img5.jpg");
 }
 
-.gallery-item-price {
-    position: relative;
-    z-index: 2;
+.gallery-image6:hover {
+    content: url("../images-hover-Gallery/hover-Gallery-img6.jpg");
 }
+
+.gallery-image7:hover {
+    content: url("../images-hover-Gallery/hover-Gallery-img7.jpg");
+}
+
+.gallery-image8:hover {
+    content: url("../images-hover-Gallery/hover-Gallery-img8.jpg");
+}
+
+.gallery-image9:hover {
+    content: url("../images-hover-Gallery/hover-Gallery-img9.jpg");
+}
+
+.gallery-image10:hover {
+    content: url("../images-hover-Gallery/hover-Gallery-img10.jpg");
+}
+
+.gallery-image11:hover {
+    content: url("../images-hover-Gallery/hover-Gallery-img11.jpg");
+}
+.gallery-image12:hover {
+    content: url("../images-hover-Gallery/hover-Gallery-img12.jpg");
+}
+
+.gallery-image13:hover {
+    content: url("../images-hover-Gallery/hover-Gallery-img13.jpg");
+}
+
+.gallery-image14:hover {
+    content: url("../images-hover-Gallery/hover-Gallery-img14.jpg");
+}
+
+.gallery-image15:hover {
+    content: url("../images-hover-Gallery/hover-Gallery-img15.jpg");
+}
+
+
+
+
 
 
