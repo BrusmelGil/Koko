@@ -1,3 +1,12 @@
+/* en esta página ira el reset css 
+impor de hojas del resto de archivos css*/
+
+@import './header.css';
+
+
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -294,3 +303,4 @@ button :hover {
 .text-paragraph-somos{
     padding-right: 5%;
 }
+
