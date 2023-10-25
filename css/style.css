@@ -10,8 +10,8 @@ header {
 
 }
 .logo {
-  max-width: 140%;
-  max-height: 100%;
+  max-width: 280%;
+  max-height: 250%;
 }
 
 .barranav {
@@ -31,7 +31,9 @@ display: flex;}
 nav a {
   text-decoration:underline;
   color: aliceblue;
+  font-size:x-large;
 }
+#products{background-color: violet;}
 .subscribe button {
   background-color: violet;
   border: none;
@@ -61,3 +63,6 @@ button :hover {
 .carro :hover {
   cursor: pointer;
 }
+.separator {
+  border-top:5px;
+background-color: rgb(169, 78, 253);}
