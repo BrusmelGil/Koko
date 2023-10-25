@@ -7,11 +7,10 @@ header {
 .box {
   width: 250px;
   height: 250px;
+  background-image: url(../imagenes/logoKOKO.png);
+  background-position: center;
 }
-.logo {
-  max-width: 280%;
-  max-height: 250%;
-}
+
 
 .barranav {
   display: flex;
