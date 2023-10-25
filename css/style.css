@@ -1,3 +1,31 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -61,6 +89,8 @@
     margin-bottom: 1.5rem;
     font-size: large;
     margin-left: 5rem;
+    border-right: 2px solid violet;
+
 }
 
 .box-footer-info-somos h4{
@@ -72,5 +102,10 @@
     font-weight: 800;
     
 }
+
+.text-paragraph-somos{
+    padding-right: 5%;
+}
+
 
 
