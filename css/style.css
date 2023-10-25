@@ -1,32 +1,4 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -42,12 +14,228 @@
     
 }
 
+#banner {
+    
+    display: flex;
+
+    
+}
+.imagen-banner img{
+    width: 100%;
+
+}
+
+
+header {
+    background-color: #727fbc;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logokoko {
+    position: relative;
+    width: 270px;
+}
+
+
+.barranav {
+    display: flex;
+    background-color: bisque;
+    height: 4vh;
+    align-items: center;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    display: inline-flex;
+    justify-content: center;
+    color: #000;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: bolder;
+}
+
+.subscribe button {
+    background-color: var(--button-subcripcion);
+    border: none;
+    border-radius: 30%;
+    padding: 5px 10px;
+}
+
+.carrito {
+    width: 20%;
+    border-radius: 40%;
+    margin-top: 50%;
+    padding-top: 5%;
+}
+
+.carro {
+    display: flex;
+    justify-content: end;
+    margin-left: 50%;
+}
+
+.navbar {
+    display: inline;
+
+
+}
+
+.sobre {
+    width: 25px;
+}
+
+button :hover {
+    cursor: pointer;
+}
+
+.carro :hover {
+    cursor: pointer;
+}
+
+
+#home {
+    min-height: 50vh;
+    background-image: url('https://ih1.redbubble.net/cover.4092629.2400x600.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+
+.categ-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto);
+    grid-gap: 100px;
+    margin: 0 auto;
+    padding: 10%;
+    max-height: 75%;
+    
+}
+
+.categ-item {
+    text-align: center;
+}
+
+.categ-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+    box-shadow: 6px 8px 10px 2px #0a142b;
+    height: 350px;
+    width: 350px;
+    position: relative;
+    padding: 10px;
+    background: linear-gradient(to bottom right, #ECCFA3 16%,#e677c4 51%,#2A4883 84%); 
+}
+
+.categ-image-container img {
+    border-radius: 25%;
+    height: 350px;
+    width: 350px;
+    transition: transform 0.2s;
+}
+
+.categ-image-container:hover {
+    transform: rotate(6deg);
+    cursor: pointer;
+}
+
+.categ-image-container:hover img {
+    transition: transform 0.2s;
+}
+
+.categ-item p {
+    margin: 5px;
+    font-size: xx-large;
+    font-weight: bolder;
+    position: relative;
+    z-index: 1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
+#redes {
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.footer_redes {
+
+    background-color: #bac6df;
+
+}
+
+#payment-method {
+    position: relative;
+    width: 28%;
+    margin: auto;
+    padding: 1%;
+
+}
+
+.payment {
+    position: relative;
+    width: 20%;
+    display: inline-block;
+    padding: 3%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.payment:hover {
+    opacity: 0.5;
+}
+
+.redes_p {
+    font-weight: bold;
+    color: #2A4883;
+    padding: 1%;
+
+}
+
+#redes_sociales {
+    position: relative;
+    width: 23%;
+    float: right;
+    margin-top: -7%;
+    padding: 1%;
+}
+
+.iconos_redes {
+    width: 12%;
+    padding: 1%;
+    cursor: pointer;
+}
+
+.iconos_redes:hover {
+    opacity: 0.5;
+}
+
+
+
 #footer-info{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     gap: 3.5rem;
     background: var(--footer-info);
-    position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
@@ -106,6 +294,3 @@
 .text-paragraph-somos{
     padding-right: 5%;
 }
-
-
-
