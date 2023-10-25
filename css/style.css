@@ -7,7 +7,6 @@ header {
 .box {
   width: 250px;
   height: 250px;
-
 }
 .logo {
   max-width: 280%;
@@ -20,20 +19,24 @@ header {
   align-items: center;
   height: 30vh;
 }
-.navbar ul{list-style:none;
-padding: 180%;
-margin: 0;
-display: flex;}
+.navbar ul {
+  list-style: none;
+  padding: 180%;
+  margin: 0;
+  display: flex;
+}
 
 .navbar li {
   margin-right: 20px;
 }
 nav a {
-  text-decoration:underline;
-  color: aliceblue;
-  font-size:x-large;
+  text-decoration: underline;
+  color: rgb(179, 175, 245);
+  font-size: x-large;
 }
-#products{background-color: violet;}
+#products {
+  background-color: violet;
+}
 .subscribe button {
   background-color: violet;
   border: none;
@@ -49,7 +52,7 @@ nav a {
 .carro {
   display: flex;
   justify-content: end;
-  margin-left:60%;
+  margin-left: 60%;
 }
 .navbar {
   display: inline;
@@ -64,5 +67,6 @@ button :hover {
   cursor: pointer;
 }
 .separator {
-  border-top:5px;
-background-color: rgb(169, 78, 253);}
+  border-top: 5px;
+  background-color: rgb(169, 78, 253);
+}
