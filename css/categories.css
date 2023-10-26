@@ -7,17 +7,18 @@
 
 .categ-container {
     display: grid;
+    justify-content: center;
+    align-items: center;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(auto);
     grid-gap: 100px;
     margin: 0 auto;
     padding: 10%;
-    max-height: 75%;
+    max-height: 100%;
     
 }
 
 .categ-item {
-    max-width: fit-content;
     text-align: center;
 }
 
