@@ -17,6 +17,7 @@
 }
 
 .categ-item {
+    max-width: fit-content;
     text-align: center;
 }
 
