@@ -32,7 +32,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     grid-gap: 20px;
-    max-width:fit-content;
+   
 }
 
 .gallery-item {
@@ -91,63 +91,63 @@
 }
 
 .gallery-image1:hover {
-    content: url("../images-hover-Gallery/hover-Gallery-img1.jpg");
+    content: url("../assets/images-hover-Gallery/hover-Gallery-img1.jpg");
 }
 
 .gallery-image2:hover {
-    content: url("../images-hover-Gallery/hover-Gallery-img2.jpg");
+    content: url("../assets/images-hover-Gallery/hover-Gallery-img2.jpg");
 }
 
 .gallery-image3:hover {
-    content: url("../images-hover-Gallery/hover-Gallery-img3.jpg");
+    content: url("../assets/images-hover-Gallery/hover-Gallery-img3.jpg");
 }
 
 .gallery-image4:hover {
-    content: url("../images-hover-Gallery/hover-Gallery-img4.jpg");
+    content: url("../assets/images-hover-Gallery/hover-Gallery-img4.jpg");
 }
 
 .gallery-image5:hover {
-    content: url("../images-hover-Gallery/hover-Gallery-img5.jpg");
+    content: url("../assets/images-hover-Gallery/hover-Gallery-img5.jpg");
 }
 
 .gallery-image6:hover {
-    content: url("../images-hover-Gallery/hover-Gallery-img6.jpg");
+    content: url("../assets/images-hover-Gallery/hover-Gallery-img6.jpg");
 }
 
 .gallery-image7:hover {
-    content: url("../images-hover-Gallery/hover-Gallery-img7.jpg");
+    content: url("../assets/images-hover-Gallery/hover-Gallery-img7.jpg");
 }
 
 .gallery-image8:hover {
-    content: url("../images-hover-Gallery/hover-Gallery-img8.jpg");
+    content: url("../assets/images-hover-Gallery/hover-Gallery-img8.jpg");
 }
 
 .gallery-image9:hover {
-    content: url("../images-hover-Gallery/hover-Gallery-img9.jpg");
+    content: url("../assets/images-hover-Gallery/hover-Gallery-img9.jpg");
 }
 
 .gallery-image10:hover {
-    content: url("../images-hover-Gallery/hover-Gallery-img10.jpg");
+    content: url("../assets/images-hover-Gallery/hover-Gallery-img10.jpg");
 }
 
 .gallery-image11:hover {
-    content: url("../images-hover-Gallery/hover-Gallery-img11.jpg");
+    content: url("../assets/images-hover-Gallery/hover-Gallery-img11.jpg");
 }
 
 .gallery-image12:hover {
-    content: url("../images-hover-Gallery/hover-Gallery-img12.jpg");
+    content: url("../assets/images-hover-Gallery/hover-Gallery-img12.jpg");
 }
 
 .gallery-image13:hover {
-    content: url("../images-hover-Gallery/hover-Gallery-img13.jpg");
+    content: url("../assets/images-hover-Gallery/hover-Gallery-img13.jpg");
 }
 
 .gallery-image14:hover {
-    content: url("../images-hover-Gallery/hover-Gallery-img14.jpg");
+    content: url("../assets/images-hover-Gallery/hover-Gallery-img14.jpg");
 }
 
 .gallery-image15:hover {
-    content: url("../images-hover-Gallery/hover-Gallery-img15.jpg");
+    content: url("../assets/images-hover-Gallery/hover-Gallery-img15.jpg");
 }
 
 
