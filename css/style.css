@@ -5,10 +5,13 @@ header {
   justify-content: space-between;
 }
 .box {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   background-image: url(../imagenes/logoKOKO.png);
   background-position: center;
+}
+.logo{width:330px;
+height:100px;
 }
 
 
