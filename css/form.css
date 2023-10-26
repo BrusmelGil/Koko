@@ -16,15 +16,15 @@
 
 }
 
-.form-body{
+.form-body {
     width: 400px;
-    min-width: 300px;
+    min-width: 500px;
     border-radius: 10px;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    margin: 10px; 
-    border: solid 1px #2988b9;
-
+    margin: 10px;
+    border: 1px solid #2988b9;
+    padding: 50px 40px;
 }
 
 .form-body img{
@@ -36,7 +36,7 @@
 
 .text-form{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: #fff;
     margin-bottom: 25px;
