@@ -1,3 +1,4 @@
+body{margin: 0%;}
 header {
   background: radial-gradient(circle, rgb(128, 65, 230), rgb(34, 138, 223));
   display: flex;
@@ -10,11 +11,10 @@ header {
   background-image: url(../imagenes/logoKOKO.png);
   background-position: center;
 }
-.logo{width:330px;
-height:100px;
+.logo {
+  width: 330px;
+  height: 100px;
 }
-
-
 .barranav {
   display: flex;
   justify-content: center;
@@ -44,20 +44,24 @@ nav a {
   border: none;
   border-radius: 30%;
   padding: 5px 10px;
-
 }
-.subscribe{margin-right:4%;}
+.subscribe {
+  margin-right: 4%;
+  margin-top:5%;
+}
 .carrito {
-  width: 20%;
+  height: 10%;
+  width: 30%;
   border-radius: 40%;
-  margin-top: 50%;
+  margin-top: 30%;
+  margin-right:-80%;
   padding-top: 5%;
 }
 .carro {
   display: flex;
-  justify-content:end;
-  margin-left:52%;
-  margin-bottom:10%;
+  justify-content: end;
+  margin-left:53%;
+  margin-bottom: 15%;
 }
 .navbar {
   display: inline;
