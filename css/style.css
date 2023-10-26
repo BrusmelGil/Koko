@@ -2,9 +2,11 @@
 impor de hojas del resto de archivos css*/
 
 @import './header.css';
-
-
-
+@import './banner.css';
+@import './categories.css';
+@import './footer.css';
+@import './gallery.css';
+@import './product-detail.css';
 
 
 * {
