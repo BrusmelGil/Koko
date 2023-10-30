@@ -25,17 +25,6 @@ impor de hojas del resto de archivos css*/
     
 }
 
-#banner {
-    
-    display: flex;
-
-    
-}
-.imagen-banner img{
-    width: 100%;
-
-}
-
 
 header {
     background-color: #727fbc;
