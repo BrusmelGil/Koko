@@ -1,4 +1,6 @@
-body{margin: 0%;}
+body {
+  margin: 0%;
+}
 header {
   background: radial-gradient(circle, rgb(128, 65, 230), rgb(34, 138, 223));
   display: flex;
@@ -18,58 +20,52 @@ header {
 }
 .barranav {
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 30vh;
+  height: 35vh;
+  margin-left: 15%;
 }
-.navbar ul {
+ul {
+  display: inline;
   list-style: none;
-  padding: 180%;
-  margin: 0;
-  display: flex;
 }
 
 .navbar li {
-  margin-right: 20px;
+  display: inline;
+  align-items: center;
+  margin-right: 18px;
 }
 nav a {
   text-decoration: underline;
   color: rgb(179, 175, 245);
-  font-size: x-large;
+  font-size: xx-large;
 }
 #products {
   background-color: violet;
 }
-.subscribe button {
-  background-color: violet;
-  border: none;
-  border-radius: 30%;
-  padding: 5px 10px;
-}
+
 .subscribe {
-  margin-right: 4%;
-  margin-top:5%;
+  margin-right: 9%;
+  margin-top: -8%;
 }
-.carrito {
-  height: 10%;
-  width: 30%;
-  border-radius: 40%;
-  margin-top: 30%;
-  margin-right:-80%;
-  padding-top: 5%;
-}
-.carro {
-  display: flex;
-  justify-content: end;
-  margin-left:53%;
-  margin-bottom: 15%;
-}
-.navbar {
-  display: inline;
+
+p {
+  font-size: x-large;
+  color: violet;
+  float: left;
+  width: 70%;
+  margin-right: 10px;
 }
 .sobre {
-  width: 25px;
+  float: left;
+  width: 20%;
 }
+.shoping {
+  height: 40px;
+  margin-bottom: 450%;
+  float: left;
+  margin-left: 1390%;
+}
+
 button :hover {
   cursor: pointer;
 }
@@ -80,6 +76,9 @@ button :hover {
   border-top: 5px;
   background-color: rgb(169, 78, 253);
 }
-.logo:hover{
-    cursor: pointer;
+.logo:hover {
+  cursor: pointer;
+}
+.sobre:hover {
+  cursor: pointer;
 }
