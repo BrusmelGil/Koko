@@ -1,5 +1,12 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 #home {
-    min-height: 50vh;
+    min-height: 100%;
+    min-width: 100%;
     background-image: url('https://ih1.redbubble.net/cover.4092629.2400x600.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,53 +14,135 @@
 
 .categ-container {
     display: grid;
+    align-items: center;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(auto);
-    grid-gap: 100px;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 100px;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
     padding: 10%;
-    max-height: 75%;
-    
 }
 
-.categ-item {
+.categ-item1 {
     text-align: center;
+    width:100%;
 }
 
-.categ-image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.categ-item1 img {
+    border: solid 10px #2A4883;
     border-radius: 25%;
-    box-shadow: 6px 8px 10px 2px #0a142b;
-    height: 350px;
-    width: 350px;
-    position: relative;
-    padding: 10px;
-    background: linear-gradient(to bottom right, #ECCFA3 16%,#e677c4 51%,#2A4883 84%); 
-}
-
-.categ-image-container img {
-    border-radius: 25%;
-    height: 350px;
-    width: 350px;
+    height: 100%;
+    width: 90%;
+    box-shadow: 6px 8px 10px 2px #0a142b; ;
     transition: transform 0.2s;
 }
 
-.categ-image-container:hover {
+.categ-item2 {
+    text-align: center;
+    width:100%;
+}
+
+.categ-item2 img {
+    border: solid 10px #2A4883;
+    border-radius: 25%;
+    height: 100%;
+    width: 90%;
+    box-shadow: 6px 8px 10px 2px #0a142b;
+    transition: transform 0.2s;
+}
+
+.categ-item3 {
+    text-align: center;
+    width:100%;
+}
+
+.categ-item3 img {
+    border: solid 10px #2A4883;
+    border-radius: 25%;
+    height: 100%;
+    width: 90%;
+    box-shadow: 6px 8px 10px 2px #0a142b; ;
+    transition: transform 0.2s;
+}
+
+.categ-item4 {
+    text-align: center;
+    width:100%;
+}
+
+.categ-item4 img {
+    border: solid 10px #2A4883;
+    border-radius: 25%;
+    height: 100%;
+    width: 90%;
+    box-shadow: 6px 8px 10px 2px #0a142b; ;
+    transition: transform 0.2s;
+}
+
+.categ-item5 {
+    text-align: center;
+    width:100%;
+}
+
+.categ-item5 img {
+    border: solid 10px #2A4883;
+    border-radius: 25%;
+    height: 100%;
+    width: 90%;
+    box-shadow: 6px 8px 10px 2px #0a142b; ;
+    transition: transform 0.2s;
+}
+
+.categ-item6 {
+    text-align: center;
+    width:100%;
+}
+
+.categ-item6 img {
+    border: solid 10px #2A4883;
+    border-radius: 25%;
+    height: 100%;
+    width: 90%;
+    box-shadow: 6px 8px 10px 2px #0a142b; ;
+    transition: transform 0.2s;
+}
+
+.categ-item1, .categ-item2, .categ-item3, .categ-item4, .categ-item5, .categ-item6 h3 {
+    width: 100%;
+}
+
+.categ-item1 img:hover {
     transform: rotate(6deg);
     cursor: pointer;
 }
 
-.categ-image-container:hover img {
+.categ-item2 img:hover {
+    transform: rotate(6deg);
+    cursor: pointer;
+}
+
+.categ-item3 img:hover {
+    transform: rotate(6deg);
+    cursor: pointer;
+}
+
+.categ-item4 img:hover {
+    transform: rotate(6deg);
+    cursor: pointer;
+}
+
+.categ-item5 img:hover {
+    transform: rotate(6deg);
+    cursor: pointer;
+}
+
+.categ-item6 img:hover {
+    transform: rotate(6deg);
+    cursor: pointer;
+}
+
+img:hover img {
     transition: transform 0.2s;
 }
 
-.categ-item p {
-    margin: 5px;
-    font-size: xx-large;
-    font-weight: bolder;
-    position: relative;
-    z-index: 1;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
