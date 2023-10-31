@@ -146,3 +146,6 @@ img:hover img {
     transition: transform 0.2s;
 }
 
+.categ-item1, .categ-item2, .categ-item3, .categ-item4, .categ-item5, .categ-item6 h3 {
+    font-size: x-large;
+}
