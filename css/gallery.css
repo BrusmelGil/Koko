@@ -1,3 +1,8 @@
+@import './header.css';
+@import './banner.css';
+@import './footer.css';
+@import './form.css';
+
 #home-gallery {
     display: flex;
     flex-direction: column;
@@ -12,8 +17,7 @@
 .home-gallery-title {
     text-align: center;
     padding: 5%;
-    position: relative;
-    font-size: 50px;
+    font-size: xx-large;
     font-weight: bolder;
     text-decoration: underline;
     color: #0a142b;
@@ -25,12 +29,14 @@
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    grid-gap: 20px;
+    gap: 20px;
 
 }
 
 .gallery-item {
     text-align: center;
+    height: 100%;
+    width: 100%;
 }
 
 .gallery-image-container {
@@ -40,26 +46,26 @@
     align-items: center;
     border-radius: 15px;
     box-shadow: 6px 8px 10px 2px #0a142b;
-    height: 440px;
-    width: 350px;
-    padding-top: 35px;
+    height: 100%;
+    width: 100%;
+    padding-top: 15%;
     padding-bottom: 0;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 15%;
+    padding-left: 15%;
     background-color: white;
     overflow: hidden;
 }
 
 .gallery-image-container img {
-    height: 350px;
-    width: 350px;
+    height: 80%;
+    width: 80%;
     transition: opacity 0.3s;
 }
 
 .gallery-item-title {
     border-bottom: 3px solid #47589D;
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding-top: 5%;
+    padding-bottom: 2.5%;
     font-size: large;
     font-weight: normal;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -67,7 +73,7 @@
 
 .gallery-item-price {
     
-    margin-top: 2px;
+    margin-top: 1.5%;
     font-size: x-large;
     font-weight: bold;
     color: #47589D;
@@ -76,8 +82,8 @@
 
 .gallery-item-iva {
     z-index: 2;
-    margin-top: 1px;
-    margin-bottom: 30px;
+    margin-top: 0.5%;
+    margin-bottom: 15%;
     font-size: medium;
     font-weight: lighter;
     color: #47589D;
@@ -143,6 +149,8 @@
 .gallery-image15:hover {
     content: url("../assets/images-hover-Gallery/hover-Gallery-img15.jpg");
 }
+
+
 
 
 
