@@ -15,22 +15,20 @@
 <body>
     <header>
         <div class="box">
-          <img class="logo" src="../assets/img-header/logoKOKO-fotor-20231025165815.png">
+          <a title="" href="../index.html"><img class="logo" src="../assets/img-header/logoKOKO-fotor-20231025165815.png"></a>
         </div>
         <div class="barra">
           <nav class="navbar">
             <ul>
               <li>
-                <a>
-                  <label for="productos">Productos</label>
-                  <select name="products" id="products">
-                    <option value="peluches">Peluches</option>
-                    <option value="figuras">Figuras</option>
-                    <option value="moda">Moda</option>
-                    <option value="calzada">Calzado</option>
-                    <option value="juegos">Juegos de Rol</option>
-                    <option value="tazas">Tazas</option>
-                  </select></a>
+                <div class="dropdown">
+                  <a><label for="Productos">Productos</label></a>
+                  <div class="dropdown-content">
+                   <a href="./pages/gallery.html">Peluches</a>
+                   <a href="">Figuras</a>
+                   <a href="">Moda</a>
+                   </div>
+               </div>
               </li>
               <li><a href="#">Novedades</a></li>
               <li><a href="#">Zona Outlet</a></li>
@@ -38,7 +36,7 @@
           </nav>
         </div>
         <img class="shopping" src="../assets/img-header/shopping-cart-3_icon-icons.com_63429.png">
-    <a href="pages/form.html">
+    <a href="form.html">
         <button class="botonsuscribe">Suscribete a nuestra newsletter</button>
     </a>
 </header>
