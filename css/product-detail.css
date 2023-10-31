@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#home-detail {
+    min-height: 100vh;
+    background-image: url('https://ih1.redbubble.net/cover.4092629.2400x600.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
