@@ -18,7 +18,7 @@ html, body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 100px;
-    width: 80%;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
     padding: 10%;
@@ -112,7 +112,32 @@ html, body {
     width: 100%;
 }
 
-img:hover {
+.categ-item1 img:hover {
+    transform: rotate(6deg);
+    cursor: pointer;
+}
+
+.categ-item2 img:hover {
+    transform: rotate(6deg);
+    cursor: pointer;
+}
+
+.categ-item3 img:hover {
+    transform: rotate(6deg);
+    cursor: pointer;
+}
+
+.categ-item4 img:hover {
+    transform: rotate(6deg);
+    cursor: pointer;
+}
+
+.categ-item5 img:hover {
+    transform: rotate(6deg);
+    cursor: pointer;
+}
+
+.categ-item6 img:hover {
     transform: rotate(6deg);
     cursor: pointer;
 }
