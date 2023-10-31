@@ -16,21 +16,17 @@ header {
   height: 100px;
   margin-left: 20%;
 }
-.barranav {
-  display: flex;
-  align-items: center;
-  height: 35vh;
-  margin-right: 75%;
-}
-.navbar{
+.barra{display: inline;}
+
+.navbar{display: inline;
   background-color:#7648e0;
+  margin-left:170%;
 }
 ul {
-  display: inline;
   list-style: none;
 }
 
-.navbar li {
+.nav li {
   display: inline;
   align-items: center;
 }
