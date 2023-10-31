@@ -9,3 +9,27 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.detail-mainImage-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+    padding: 5%;
+}
+
+.detail-mainImage-container img {
+    margin-right: 2%;
+}
+
+.detail-mainImage-container p {
+    margin: 5%;
+    font-size: normal;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.detail-miniPics-container {
+    display: flex;
+    justify-content: flex-start;
+
+}
