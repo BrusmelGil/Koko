@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+@import './header.css';
+@import './banner.css';
+@import './footer.css';
+@import './form.css';
+
 #home-detail {
     min-height: 100vh;
     background-image: url('https://ih1.redbubble.net/cover.4092629.2400x600.jpg');
