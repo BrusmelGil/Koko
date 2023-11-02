@@ -14,7 +14,4 @@ document.addEventListener("click", (event) => {
 
 
 
-function myFunction() {
-  document.getElementById("favorito").innerHTML = faActived;
-}
 

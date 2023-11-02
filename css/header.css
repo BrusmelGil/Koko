@@ -1,0 +1,78 @@
+body{margin: 0%;}
+header {
+  background: radial-gradient(circle, rgb(128, 65, 230), rgb(34, 138, 223));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  background-image: url(../imagenes/logoKOKO.png);
+  background-position: center;
+}
+.logo {
+  width: 330px;
+  height: 100px;
+  margin-left: 20%;
+}
+.barra{display: inline;}
+
+.navbar{display: inline;
+  background-color:#7648e0;
+  margin-left:170%;
+}
+ul {
+  list-style: none;
+}
+
+.nav li {
+  display: inline;
+  align-items: center;
+}
+nav a {
+  text-decoration: underline;
+  font-size: x-large;
+}
+#products {
+  background-color: violet;
+}
+.shopping{
+  position: absolute;
+  top: 0;
+  left:96%;
+  z-index: 1;
+  width:2.3vw;
+}
+
+.subscribe {
+  position: relative;
+  z-index: 0;
+  margin-right: 2%;
+}
+.shopping:hover{
+  cursor: pointer;
+}
+
+
+.separator {
+  border-top: 5px;
+  background-color: rgb(169, 78, 253);
+}
+.logo:hover {
+  cursor: pointer;
+}
+
+.botonsuscribe {
+  display:flexbox;
+  margin-top: 3%;
+  margin-left: -68%;
+  padding: 8px 50px;
+  width: 220px;
+  height: 50px;
+  background-color: #7648e0;
+  color: #78c7f5;
+  text-decoration: underline;
+  border-radius: 12px;
+  cursor: pointer;
+}
