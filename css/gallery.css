@@ -150,7 +150,21 @@
     content: url("../assets/images-hover-Gallery/hover-Gallery-img15.jpg");
 }
 
+.corazon {
+    position:relative;
+    cursor: pointer;
+    
 
+}
+.corazon:hover {
+    content: "\2665";
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    color: red;
+    transition: all 0.5s;
+}
 
 
 

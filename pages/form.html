@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/form.css">
     <title>Form</title>
+    <script src="/Js/form.js"></script>
     </head>
     
     <body>
@@ -16,10 +17,10 @@
         <img src="../assets/img-logo/Logo-form.png" alt="company logo">
         <p class="text-form">Suscribete a la newsletter </p> 
     
-            <form class="subscription-form">
-                <input type="text" placeholder="Email">
+            <form class="subscription-form" id="form">
+                <input id="email-register" type="text" placeholder="Email" required>
     
-                <button>Enviar</button>
+                <button type="submit">Enviar</button>
     
     
         </div>

@@ -9,6 +9,8 @@ impor de hojas del resto de archivos css*/
 @import './product-detail.css';
 @import './form.css';
 
+
+
 * {
     margin: 0;
     padding: 0;
