@@ -12,7 +12,19 @@
     background-image: url('https://ih1.redbubble.net/cover.4092629.2400x600.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-}  
+}
+
+.back-button {
+    background-image: url('../assets/left-arrow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70% 70%;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 2%;
+    cursor: pointer;
+}
 
 .home-gallery-title {
     text-align: center;
