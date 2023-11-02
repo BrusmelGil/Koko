@@ -3,6 +3,7 @@
 @import './footer.css';
 @import './form.css';
 
+
 #home-gallery {
     display: flex;
     flex-direction: column;
