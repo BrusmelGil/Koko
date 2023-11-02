@@ -18,6 +18,18 @@
     align-items: flex-start;
 }
 
+.back-button {
+    background-image: url('../assets/left-arrow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70% 70%;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 2%;
+    cursor: pointer;
+}
+
 .detail-image-container {
     display: grid;
     grid-template-rows: 1fr 0.2fr;
@@ -29,7 +41,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 11% 0% 5% 10%;
+    margin: 11% 0% 5% 2%;
 }
 
 .detail-mainImage-container img {
@@ -45,7 +57,7 @@
     align-items: center;
     flex-direction: row;
     width: 50%;
-    margin-left: 30%;
+    margin-left: 26%;
 }
 
 .detail-miniPics-container img {
@@ -57,8 +69,9 @@
 }
 
 .detail-text-container {
-    width: 60%;
-    margin: 4.3% 8% 0% 5%;
+    width: 50%;
+    height: 50%;
+    margin: 5.5% 8% 0% 5%;
     padding: 1.5%;
     border-radius: 1%;
     box-shadow: 6px 8px 10px 2px #0a142b;
